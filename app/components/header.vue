@@ -1,13 +1,13 @@
     <template>
         <div class="relative w-full min-h-[100dvh] flex flex-col items-center justify-center overflow-hidden">
 
-            <div class="absolute inset-0 bg-gradient-to-br from-gray-300/60 via-white to-sky-200/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-gray-400/40 via-white to-sky-300/30"></div>
 
             <div class="absolute top-20 left-20 w-32 h-32 bg-gray-900/30 rounded-full blur-3xl opacity-60 animate-float">
             </div>
 
             <div
-                class="absolute bottom-20 right-20 w-32 h-32 bg-sky-300/70 rounded-full blur-3xl opacity-60 animate-float [animation-delay:1s]">
+                class="absolute bottom-20 right-20 w-40 h-60 bg-sky-300/70 rounded-full blur-3xl opacity-60 animate-float [animation-delay:1s]">
             </div>
 
             <div class="relative z-10 text-center space-y-6 flex flex-col items-center justify-center px-1 md:px-0">
@@ -45,7 +45,7 @@
                 </div>
 
             </div>
-            <div class="fixed bottom-2 left-1/2 transform -translate-x-1/2">
+            <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2">
                 <Icon name="lucide:arrow-down" size="24" class="text-gray-600 animate-bounce" />
             </div>
         </div>
@@ -60,11 +60,12 @@
         }
 
         50% {
-            transform: translateY(-20px);
+            transform: translateY(-40px);
+            transform: translateX(-40px);
         }
     }
 
     .animate-float {
-        animation: float 6s ease-in-out infinite;
+        animation: float 4s ease-in-out infinite;
     }
     </style>
