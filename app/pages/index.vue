@@ -2,6 +2,7 @@
   <div>
     <Header />
     <Projects />
+    <AboutMe />
   </div>
 </template>
 

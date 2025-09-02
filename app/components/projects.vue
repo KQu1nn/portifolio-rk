@@ -23,7 +23,7 @@
 
   const products = ref([
     {id: 1, title: 'Plataforma SaaS Completa', description: 'Sistema completo de gestão empresarial com dashboard analytics, autenticação avançada e integração com APIs externas.', image: image1, category: 'Full Stack', url: '#' },
-    {id: 2, title: 'Plataforma SaaS Completa', description: 'Sistema completo de gestão empresarial com dashboard analytics, autenticação avançada e integração com APIs externas.', image: image2, category: 'E-commerce', url: '#' },
-    {id: 3, title: 'Plataforma SaaS Completa', description: 'Sistema completo de gestão empresarial com dashboard analytics, autenticação avançada e integração com APIs externas.', image: image3, category: 'Mobile', url: '#' },
+    {id: 2, title: 'E-commerce Moderno', description: 'Loja virtual responsiva com carrinho de compras, sistema de pagamento integrado e painel administrativo.', image: image2, category: 'E-commerce', url: '#' },
+    {id: 3, title: 'App Mobile Financeiro', description: 'Aplicativo de controle financeiro com gráficos interativos, sincronização em tempo real e notificações push.', image: image3, category: 'Mobile', url: '#' },
   ])
 </script>

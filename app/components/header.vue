@@ -14,7 +14,7 @@
                 <p
                     class="text-center text-[12px] px-3 py-0.5 rounded-xl bg-blue-100 text-blue-500 font-medium border border-blue-400">
                     ✨ Disponível para novos projetos</p>
-                <h1 class="md:w-4/6 text-center text-[45px] text-base/12 md:text-7xl font-bold ">
+                <h1 class="md:w-4/6 text-center text-[45px] text-base/12 md:text-7xl md:font-bold font-black">
                     Tire sua ideia do papel e
                     <span class="bg-gradient-to-r from-[#0F1A41] to-sky-400 bg-clip-text text-transparent">conquiste a
                         internet</span>
